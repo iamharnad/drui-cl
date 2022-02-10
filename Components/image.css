@@ -1,0 +1,13 @@
+.img-responsive {
+  width: 90%;
+  height: 70%;
+}
+.img-round {
+  border-radius: 50%;
+}
+
+.img-responsive-install {
+  width: 90%;
+  height: 40%;
+  padding: 100px;
+}

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="./Components/images/fav-icon.png">
+    <title>Documentaion | DRUI</title>
+  </head>
+  <body>
+    <div class="grid-container-pagelayout">
+      <nav class="nav-bar shadow-box" id="my-nav-bar">
+        <div class="nav-section">
+          <div id="my-burger-menu" class="burger nav-section-items">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+
+          <div class="nav-logo nav-section-items" id="my-logo">
+            <a href="#" class="link-no-style">
+              <div class="primary-text-color logo-title" style="color: white">
+                DRUI
+              </div>
+            </a>
+          </div>
+          <ul class="nav-bar-links list-style-none nav-section-items">
+            <li class="list-inline-item avatar-in-nav-links">
+              <div class="primary-text-color logo-title">
+                U<span class="tertiary-text-color logo-and-symbol-style">&</span
+                >I
+              </div>
+              <div class="tertiary-text-color logo-tagline">
+                LET'S DESIGN TOGETHER
+              </div>
+            </li>
+            <li class="list-inline-item">
+              <a href="./" class="link-no-style">Home</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="./documentation.html" class="link-no-style"
+                >Documentation</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="nav-section">
+          <ul class="nav-icons list-style-none nav-section-item-width50pc">
+            <li class="list-inline-item">
+              <a
+                href="https://github.com/iamharnad"
+                class="nav-icon-link link-no-style"
+              >
+                <span class="nav-icon">
+                  <i class="fab fa-github" aria-hidden="true"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                href="https://twitter.com/iamharnad"
+                class="nav-icon-link link-no-style"
+              >
+                <span class="nav-icon">
+                  <i class="fab fa-twitter"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="sidebar grid-item shadow-bottom" id="my-side-bar">
+        <div class="nav-bar-opening-button">
+          <h2 class="h5 nav-title">Components</h2>
+          <span class="sidebar-arrow"
+            ><i class="h5 fas fa-chevron-down"></i
+          ></span>
+        </div>
+
+        <ul class="nav-links">
+          <li class="nav-link-item"><a href="#Alerts">Alerts</a></li>
+          <li class="nav-link-item"><a href="#Avatar">Avatar</a></li>
+          <li class="nav-link-item"><a href="#Badge">Badge</a></li>
+          <li class="nav-link-item"><a href="#Button">Button</a></li>
+          <li class="nav-link-item"><a href="#Cards">Cards</a></li>
+          <li class="nav-link-item"><a href="#Form">Form</a></li>
+          <li class="nav-link-item"><a href="#Image">Image</a></li>
+          <li class="nav-link-item"><a href="#Input">Input</a></li>
+        </ul>
+        <div style="height: 1.5rem"></div>
+      </div>
+
+      <!--main section-->
+      <section class="main grid-item">
+        <div id="Alerts">
+          <div class="component-intro">
+            <h1>Alerts</h1>
+            <p class="body-cp-lg text-light-weight">
+              Alerts are used to attract user's attention for important
+              information without interrupting the user's flow.
+            </p>
+          </div>
+
+          <div class="component-display-container display-flex-column">
+            <div class="alert-box alert-primary">
+              Primary Alert with Link
+              <a class="link-text link-text-primary">Check it out!</a>
+            </div>
+            <div class="alert-box alert-secondary">Secondary Alert</div>
+            <div class="alert-box alert-success">
+              <span class="alert-icon"><i class="fas fa-check-circle"></i></span
+              >Success Alert
+            </div>
+            <div class="alert-box alert-danger">
+              <span class="alert-icon"
+                ><i class="fas fa-exclamation-triangle"></i> </span
+              >Danger Alert
+            </div>
+            <div class="alert-box alert-warning">
+              <span class="alert-icon"
+                ><i class="fas fa-exclamation-triangle"></i
+              ></span>
+              Warning Alert
+            </div>
+          </div>
+
+          <div class="code-snippet-display">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/62051146c6efb50015062ea2"
+              style="width: 100%; height: 138px"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+
+        <br />
+        <hr />
+
+        <div id="Avatar">
+          <div class="component-intro">
+            <h1>Avatar</h1>
+            <p class="body-cp-lg text-light-weight">
+              Avatars are images that users can set as their profile picture.
+              ... They can be custom photos, uploaded by users, or generated as
+              Identicons as a placeholder.
+            </p>
+          </div>
+
+          <div class="component-display-container">
+            <div class="avatar avatar-lg-size flex-items">
+              <img
+                loading="lazy"
+                class="img-responsive img-round"
+                src="Components/images/avatar.jpg"
+                alt="avatar"
+              />
+            </div>
+            <div class="avatar avatar-md-size flex-items">
+              <img
+                loading="lazy"
+                class="img-responsive img-round"
+                src="Components/images/avatar.jpg"
+                alt="avatar"
+              />
+            </div>
+            <div class="avatar avatar-sm-size flex-items">
+              <img
+                loading="lazy"
+                class="img-responsive img-round"
+                src="Components/images/avatar.jpg"
+                alt="avatar"
+              />
+            </div>
+            <div class="avatar avatar-xs-size flex-items">
+              <img
+                loading="lazy"
+                class="img-responsive img-round"
+                src="Components/images/avatar.jpg"
+                alt="avatar"
+              />
+            </div>
+          </div>
+
+          <div class="code-snippet-display">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/620513c1c6efb50015062eb3"
+              style="width: 100%; height: 125px"
+              frameborder="0"
+            ></iframe>
+          </div>
+          <br />
+        </div>
+
+        <hr />
+      </section>
+    </div>
+    <script src="./Components/components.js"></script>
+    <script src="./Docsite-js/docsite-nav.js"></script>
+    <script src="./Docsite-js/docsite-sidebar.js"></script>
+  </body>
+</html>

@@ -6,6 +6,7 @@
 @import url(../Components/grid.css);
 @import url(../Components/alert.css);
 @import url(../Components/avatar.css);
+@import url(../Components/badge.css);
 
 html {
   scroll-behavior: smooth;
@@ -17,7 +18,7 @@ body {
 
 * {
   margin: 0;
-  font-family: "Encode Sans Semi Condensed", sans-serif;
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
 }
 
 :root {

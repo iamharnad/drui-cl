@@ -42,7 +42,10 @@ button.link-no-style {
 .btn-solid-primary {
   background-color: var(--primary-color);
   color: var(--complimentary-text-color);
+<<<<<<< HEAD
   margin-right: 10px;
+=======
+>>>>>>> ac05f11a84ef7198f5c4d5376f50c1b687aa890a
 }
 .btn-solid-primary:hover {
   background-color: var(--dark-primary-color);
@@ -51,7 +54,10 @@ button.link-no-style {
 .btn-outline-primary {
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
+<<<<<<< HEAD
   margin-right: 10px;
+=======
+>>>>>>> ac05f11a84ef7198f5c4d5376f50c1b687aa890a
 }
 .btn-outline-primary:hover {
   border: 1px solid var(--dark-primary-color);
@@ -94,7 +100,10 @@ button.link-no-style {
 .btn-solid-secondary {
   background-color: var(--secondary-color);
   color: var(--secondary-text-color);
+<<<<<<< HEAD
   margin-right: 10px;
+=======
+>>>>>>> ac05f11a84ef7198f5c4d5376f50c1b687aa890a
 }
 .btn-solid-secondary:hover {
   background-color: var(--dark-secondary-color);
@@ -104,7 +113,10 @@ button.link-no-style {
 .btn-outline-secondary {
   border: 1px solid var(--dark-secondary-color);
   color: var(--secondary-text-color);
+<<<<<<< HEAD
   margin-right: 10px;
+=======
+>>>>>>> ac05f11a84ef7198f5c4d5376f50c1b687aa890a
 }
 .btn-outline-secondary:hover {
   background-color: var(--dark-secondary-color);
@@ -184,7 +196,10 @@ button.link-no-style {
   width: 44px;
   display: block;
   cursor: pointer;
+<<<<<<< HEAD
   margin-right: 15px;
+=======
+>>>>>>> ac05f11a84ef7198f5c4d5376f50c1b687aa890a
 }
 .btn-toggle:focus-within {
   box-shadow: 0 0 0 2px black;
@@ -192,10 +207,16 @@ button.link-no-style {
 
 .btn-checkbox {
   height: 0;
+<<<<<<< HEAD
   width: 0x;
   margin: 0;
   opacity: 0;
   
+=======
+  width: 0;
+  margin: 0;
+  opacity: 0;
+>>>>>>> ac05f11a84ef7198f5c4d5376f50c1b687aa890a
 }
 
 .btn-toggle .btn-slider-round {
@@ -207,7 +228,10 @@ button.link-no-style {
   background-color: #ff527b;
   border-radius: 50%;
   transition: 0.4s;
+<<<<<<< HEAD
   margin-right: 10px;
+=======
+>>>>>>> ac05f11a84ef7198f5c4d5376f50c1b687aa890a
 }
 .btn-toggle .btn-slider-round::before {
   position: absolute;

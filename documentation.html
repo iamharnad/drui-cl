@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="./Components/images/fav-icon.png">
+    <title>Documentaion | DRUI</title>
+  </head>
+  <body>
+    <div class="grid-container-pagelayout">
+      <nav class="nav-bar shadow-box" id="my-nav-bar">
+        <div class="nav-section">
+          <div id="my-burger-menu" class="burger nav-section-items">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+
+          <div class="nav-logo nav-section-items" id="my-logo">
+            <a href="#" class="link-no-style">
+              <div class="primary-text-color logo-title" style="color: white">
+                DRUI
+              </div>
+            </a>
+          </div>
+          <ul class="nav-bar-links list-style-none nav-section-items">
+            <li class="list-inline-item avatar-in-nav-links">
+              <div class="primary-text-color logo-title">
+                U<span class="tertiary-text-color logo-and-symbol-style">&</span
+                >I
+              </div>
+              <div class="tertiary-text-color logo-tagline">
+                LET'S DESIGN TOGETHER
+              </div>
+            </li>
+            <li class="list-inline-item">
+              <a href="./" class="link-no-style">Home</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="./documentation.html" class="link-no-style"
+                >Documentation</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="nav-section">
+          <ul class="nav-icons list-style-none nav-section-item-width50pc">
+            <li class="list-inline-item">
+              <a
+                href="https://github.com/iamharnad"
+                class="nav-icon-link link-no-style"
+              >
+                <span class="nav-icon">
+                  <i class="fab fa-github" aria-hidden="true"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                href="https://twitter.com/iamharnad"
+                class="nav-icon-link link-no-style"
+              >
+                <span class="nav-icon">
+                  <i class="fab fa-twitter"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="sidebar grid-item shadow-bottom" id="my-side-bar">
+        <div class="nav-bar-opening-button">
+          <h2 class="h5 nav-title">Components</h2>
+          <span class="sidebar-arrow"
+            ><i class="h5 fas fa-chevron-down"></i
+          ></span>
+        </div>
+
+        <ul class="nav-links">
+          <li class="nav-link-item"><a href="#Alerts">Alerts</a></li>
+          <li class="nav-link-item"><a href="#Avatar">Avatar</a></li>
+          <li class="nav-link-item"><a href="#Badge">Badge</a></li>
+          <li class="nav-link-item"><a href="#Button">Button</a></li>
+          <li class="nav-link-item"><a href="#Cards">Cards</a></li>
+          <li class="nav-link-item"><a href="#Form">Form</a></li>
+          <li class="nav-link-item"><a href="#Image">Image</a></li>
+          <li class="nav-link-item"><a href="#Input">Input</a></li>
+        </ul>
+        <div style="height: 1.5rem"></div>
+      </div>
+
+      <!--main section-->
+      <section class="main grid-item">
+        <div id="Alerts">
+          <div class="component-intro">
+            <h1>Alerts</h1>
+            <p class="body-cp-lg text-light-weight">
+              Alerts are used to attract user's attention for important
+              information without interrupting the user's flow.
+            </p>
+          </div>
+
+          <div class="component-display-container display-flex-column">
+            <div class="alert-box alert-primary">
+              Primary Alert with Link
+              <a class="link-text link-text-primary">Check it out!</a>
+            </div>
+            <div class="alert-box alert-secondary">Secondary Alert</div>
+            <div class="alert-box alert-success">
+              <span class="alert-icon"><i class="fas fa-check-circle"></i></span
+              >Success Alert
+            </div>
+            <div class="alert-box alert-danger">
+              <span class="alert-icon"
+                ><i class="fas fa-exclamation-triangle"></i> </span
+              >Danger Alert
+            </div>
+            <div class="alert-box alert-warning">
+              <span class="alert-icon"
+                ><i class="fas fa-exclamation-triangle"></i
+              ></span>
+              Warning Alert
+            </div>
+          </div>
+
+          <div class="code-snippet-display">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/62051146c6efb50015062ea2"
+              style="width: 100%; height: 138px"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+
+        <br />
+        <hr />
+
+        <div id="Avatar">
+          <div class="component-intro">
+            <h1>Avatar</h1>
+            <p class="body-cp-lg text-light-weight">
+              Avatars are images that users can set as their profile picture.
+              ... They can be custom photos, uploaded by users, or generated as
+              Identicons as a placeholder.
+            </p>
+          </div>
+
+          <div class="component-display-container">
+            <div class="avatar avatar-lg-size flex-items">
+              <img
+                loading="lazy"
+                class="img-responsive img-round"
+                src="Components/images/avatar.jpg"
+                alt="avatar"
+              />
+            </div>
+            <div class="avatar avatar-md-size flex-items">
+              <img
+                loading="lazy"
+                class="img-responsive img-round"
+                src="Components/images/avatar.jpg"
+                alt="avatar"
+              />
+            </div>
+            <div class="avatar avatar-sm-size flex-items">
+              <img
+                loading="lazy"
+                class="img-responsive img-round"
+                src="Components/images/avatar.jpg"
+                alt="avatar"
+              />
+            </div>
+            <div class="avatar avatar-xs-size flex-items">
+              <img
+                loading="lazy"
+                class="img-responsive img-round"
+                src="Components/images/avatar.jpg"
+                alt="avatar"
+              />
+            </div>
+          </div>
+
+          <div class="code-snippet-display">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/620513c1c6efb50015062eb3"
+              style="width: 100%; height: 125px"
+              frameborder="0"
+            ></iframe>
+          </div>
+          <br />
+        </div>
+
+        <hr />
+<<<<<<< Updated upstream
+=======
+
+        <div id="Badge">
+          <div class="component-intro">
+            <h1>Badges</h1>
+            <p class="body-cp-lg text-light-weight">
+              Badges are being used to display a notification count or status
+              information
+            </p>
+          </div>
+
+          <h2 class="h4">Example of Status Badge</h2>
+          <p>
+            We have 2 types of status badges that can be integrated with
+            Avatars. You can show colors to show the online status of user. And
+            to show cart or notification count, you can use number badge. Check
+            code below to copy the html part as is.
+          </p>
+
+          <div class="component-display-container">
+            <div class="flex-items">
+              <div class="badge-container">
+                <div class="avatar avatar-lg-size">
+                  <img
+                    loading="lazy"
+                    class="img-responsive img-round"
+                    src="Components/images/avatar.jpg"
+                    alt="avatar"
+                  />
+                </div>
+                <span class="status-badge status-badge-online"></span>
+              </div>
+            </div>
+
+            <div class="flex-items">
+              <div class="badge-container">
+                <div class="avatar avatar-md-size">
+                  <img
+                    loading="lazy"
+                    class="img-responsive img-round"
+                    src="Components/images/avatar.jpg"
+                    alt="avatar"
+                  />
+                </div>
+                <span class="status-badge status-badge-offline"></span>
+              </div>
+            </div>
+
+            <div class="flex-items">
+              <div class="badge-container">
+                <div class="avatar avatar-sm-size">
+                  <img
+                    loading="lazy"
+                    class="img-responsive img-round"
+                    src="Components/images/avatar.jpg"
+                    alt="avatar"
+                  />
+                </div>
+                <span class="status-badge status-badge-away"></span>
+              </div>
+            </div>
+            <div class="flex-items">
+              <div class="badge-container">
+                <div class="avatar avatar-xs-size">
+                  <img
+                    loading="lazy"
+                    class="img-responsive img-round"
+                    src="Components/images/avatar.jpg"
+                    alt="avatar"
+                  />
+                </div>
+                <span class="status-badge status-badge-online"></span>
+              </div>
+            </div>
+            <a class="btn flex-items">
+              <span class="btn-icon badge-container"
+                ><i class="fas fa-shopping-cart"></i>
+                <span class="status-badge status-badge-number">2</span>
+              </span>
+            </a>
+          </div>
+
+          <h2 class="h4">Example of Text Badge</h2>
+          <p>
+            We have 2 types of text badges that can be integrated with text.
+            Badge with rounded edges and square edges. Font size of badge text
+            is in <span class="primary-text-color">em</span>. It will change as
+            per the parent element's font-size.
+          </p>
+
+          <div class="component-display-container">
+            <div class="flex-items">
+              <h2 class="badge-container">
+                Badge 1 <span class="badge bg-secondary">New</span>
+              </h2>
+              <h3 class="badge-container">
+                Badge 2 <span class="badge bg-secondary">New</span>
+              </h3>
+              <h4 class="badge-container">
+                Badge 3
+                <span class="badge bg-secondary round-pill-badge">New</span>
+              </h4>
+              <h5 class="badge-container">
+                Badge 4 <span class="badge bg-primary">New</span>
+              </h5>
+              <h6 class="badge-container">
+                Badge 5 <span class="badge bg-primary">New</span>
+              </h6>
+              <p class="badge-container">
+                Badge 6
+                <span class="badge bg-primary round-pill-badge">New</span>
+              </p>
+            </div>
+          </div>
+          <div class="code-snippet-display">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/620a521dc055f30015380b90"
+              style="width: 100%; height: 410px"
+              frameborder="0"
+            ></iframe>
+          </div>
+          <br />
+        </div>
+        <hr />
+
+        <!--Button-->
+        <div id="Button">
+          <div class="component-intro">
+            <h1>Buttons</h1>
+            <p class="body-cp-lg text-light-weight">
+              Buttons are also called as call to action. We have range of
+              buttons and their states. You may use <em>a</em> tag or
+              <em>button</em> element, you need to add respective classes.
+            </p>
+          </div>
+          <h2 class="h4">Example of Primary Button Styles</h2>
+
+          <div class="component-display-container">
+            <a href="#" class="btn flex-items btn-solid-primary"
+              >Primary-Solid</a
+            >
+            <a class="btn flex-items btn-outline-primary">Primary-Outline</a>
+            <a class="link-text flex-items link-text-primary">Primary-Text</a>
+            <a class="btn flex-items btn-icon-primary"
+              ><span class="btn-icon"
+                ><i class="fas fa-shopping-cart"></i
+              ></span>
+            </a>
+            <a class="btn flex-items btn-text-icon-primary"
+              ><span class="btn-icon"><i class="fas fa-shopping-cart"></i></span
+              >Add to Cart</a
+            >
+          </div>
+
+          <div class="code-snippet-display">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/620a6011c055f30015380b96"
+              style="width: 100%; height: 190px"
+              frameborder="0"
+            ></iframe>
+          </div>
+
+          <h2 class="h4">Example of Secondary Button Styles</h2>
+
+          <div class="component-display-container">
+            <a class="btn flex-items btn-solid-secondary">Solid</a>
+            <a class="btn flex-items btn-outline-secondary">Outline</a>
+            <a class="link-text flex-items link-text-secondary">Text Link</a>
+            <a class="btn flex-items btn-icon-secondary"
+              ><span class="btn-icon"><i class="fas fa-trash-alt"></i></span>
+            </a>
+            <a class="btn flex-items btn-text-icon-secondary"
+              ><span class="btn-icon"><i class="fas fa-minus"></i></span
+              >Remove</a
+            >
+          </div>
+          <div class="code-snippet-display">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/620a6495c055f30015380b9c"
+              style="width: 100%; height: 190px"
+              frameborder="0"
+            ></iframe>
+          </div>
+
+          <h2 class="h4">Example of Disabled Button</h2>
+
+          <div class="component-display-container">
+            <a class="btn flex-items btn-solid-primary btn-disabled">Solid</a>
+            <a class="btn flex-items btn-text-icon-secondary btn-disabled"
+              ><span class="btn-icon"><i class="fas fa-minus"></i></span
+              >Remove</a
+            >
+          </div>
+          <div class="code-snippet-display">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/620a6629c055f30015380b9e"
+              style="width: 100%; height: 138px"
+              frameborder="0"
+            ></iframe>
+          </div>
+
+          <h2 class="h4">Example of Different Button Sizes</h2>
+
+          <div class="component-display-container">
+            <a class="btn flex-items btn-solid-primary btn-lg-size"
+              >Large CTA</a
+            >
+            <a class="btn flex-items btn-solid-primary btn-sm-size"
+              >Small CTA</a
+            >
+          </div>
+          <div class="code-snippet-display">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/620a758dc055f30015380ba6"
+              style="width: 100%; height: 138px"
+              frameborder="0"
+            ></iframe>
+          </div>
+
+          <h2 class="h4">
+            Example of Toggle Button and Floating action Button
+          </h2>
+          <p>
+            Toggle buttons can be used to change the theme. For class and html,
+            check below code.<br />
+            Floating-action buttons can be customized by adding the font-awesome
+            icon of your choice. This button will be fixed to right-bottom
+            corner.
+          </p>
+
+          <div class="component-display-container">
+            <label class="btn-toggle flex-items"
+              ><input class="btn-checkbox" type="checkbox" /><span
+                class="btn-slider-round"
+              ></span
+            ></label>
+            <a class="btn btn-float-action flex-items"
+              ><i class="fas fa-plus"></i
+            ></a>
+          </div>
+          <div class="code-snippet-display">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/620a7635c055f30015380ba7"
+              style="width: 100%; height: 138px"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+        <br />
+        <hr />
+>>>>>>> Stashed changes
+      </section>
+    </div>
+    <script src="./Components/components.js"></script>
+    <script src="./Docsite-js/docsite-nav.js"></script>
+    <script src="./Docsite-js/docsite-sidebar.js"></script>
+  </body>
+</html>

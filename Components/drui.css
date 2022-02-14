@@ -1,0 +1,43 @@
+@import url(../Components/lists.css);
+@import url(../Components/navigation.css);
+@import url(../Components/image.css);
+@import url(../Components/typography.css);
+@import url(../Components/button.css);
+@import url(../Components/grid.css);
+@import url(../Components/alert.css);
+@import url(../Components/avatar.css);
+@import url(../Components/badge.css);
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #3e4152;
+}
+
+* {
+  margin: 0;
+  font-family: "Encode Sans Semi Condensed", sans-serif;
+}
+
+:root {
+  --primary-color: #381696;
+  --light-primary-color: #e90c68;
+  --dark-primary-color: #e90c68;
+
+  --complimentary-text-color: white;
+
+  --secondary-text-color: #696b79;
+  --dark-secondary-text-color: #3f4049;
+  --secondary-color: #eaeaec;
+  --dark-secondary-color: #d8d8da;
+
+  --inactive-color: rgb(191, 192, 198);
+  --z-index-1: 1;
+  --z-index-2: 2;
+  --z-index-3: 3;
+  --z-index-4: 4;
+  --z-index-5: 5;
+  --z-index-6: 6;
+}

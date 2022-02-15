@@ -457,6 +457,317 @@
         </div>
         <br />
         <hr />
+
+        <!--card-->
+        <div id="Cards">
+          <div class="component-intro">
+            <h1>Cards</h1>
+            <p class="body-cp-lg text-light-weight">
+              Card are used to show user related data collectively, like product
+              details.
+            </p>
+          </div>
+
+          <h2 class="h4">Horizontal Card- Text+Image</h2>
+
+          <div class="component-display-container display-flex-column">
+            <!-- card with badge and image default-container -->
+            <div
+              class="card-horizontal default-container flex-items shadow-box"
+            >
+              <div class="image-container badge-container">
+                <img
+                  loading="lazy"
+                  class="img-responsive card-img"
+                  src="Components/images/image-1.jpg"
+                  alt="product-image"
+                />
+                <span class="badge bg-primary">New</span>
+              </div>
+
+              <div class="text-container">
+                <div class="text-container-title">
+                  <h6 class="text-regular-weight" style="color: blue">
+                    Times Square
+                  </h6>
+                  <p class="body-cp-md" style="color: red">
+                    United States of America<br />
+                    <small
+                      class="body-cp-sm text-light-weight secondary-text-color"
+                      >Sold by: Southwest Airlines</small
+                    >
+                  </p>
+                </div>
+
+                <div class="text-container-desc" style="color: green">
+                  <p>
+                    One of the main reasons why Times Square is so popular is
+                    the sheer amount of theaters along Broadway, in Lincoln
+                    Center, and the Theater District.
+                  </p>
+                </div>
+
+                <div class="CTA-Container">
+                  <a class="btn btn-text-icon-primary"
+                    ><span class="btn-icon"
+                      ><i class="fas fa-shopping-cart"></i></span
+                    >Add to Cart</a
+                  >
+                  <a class="btn btn-outline-secondary">Move to Wishlist</a>
+                </div>
+              </div>
+            </div>
+            <!-- card with badge and image full bleed -->
+            <div class="card-horizontal flex-items shadow-box">
+              <div class="image-container badge-container">
+                <img
+                  loading="lazy"
+                  class="img-responsive card-img"
+                  src="Components/images/image-2.jpg"
+                  alt="product-image"
+                />
+                <span class="badge bg-primary">New</span>
+              </div>
+              <div class="text-container vertical-middle-self">
+                <div class="text-container-title">
+                  <h6 class="text-regular-weight" style="color: black">
+                    Santorini
+                  </h6>
+                  <p class="body-cp-md" style="color: red">
+                    Greece<br />
+                    <small
+                      class="body-cp-sm text-light-weight secondary-text-color"
+                      >Sold by: Aegean Airlines</small
+                    >
+                  </p>
+                </div>
+                <div class="text-container-desc" style="color: green">
+                  <p>
+                    Santorini is the most famous of all Greek islands and a
+                    number one summer destination worldwide. The beauty of this
+                    island is incomparable to any other in the world.
+                  </p>
+                </div>
+                <div class="CTA-Container">
+                  <a class="btn btn-text-icon-primary"
+                    ><span class="btn-icon"
+                      ><i class="fas fa-shopping-cart"></i></span
+                    >Add to Cart</a
+                  >
+                  <a class="btn btn-outline-secondary">Move to Wishlist</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="code-snippet-display">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/620bf96c80e1cd0015bd944a"
+              style="width: 100%; height: 476px"
+              frameborder="0"
+            ></iframe>
+          </div>
+
+          <h2 class="h4">Example of Vertical Card- Text+Image</h2>
+          <p>
+            Below are 3 variations, card with badge, card with image
+            default-container, card with close button. All the cards have like
+            button.
+          </p>
+
+          <div class="component-display-container">
+            <div class="card-vertical flex-items shadow-box">
+              <div class="image-container badge-container">
+                <img
+                  loading="lazy"
+                  class="img-responsive card-img"
+                  src="Components/images/image-3.jpg"
+                  alt="product-image"
+                />
+                <span class="badge bg-primary">New</span>
+              </div>
+              <div class="text-container">
+                <div class="text-container-title">
+                  <h6 class="text-regular-weight product-title">
+                    Cairo<button class="like-btn link-no-style">
+                      <span><i class="fas fa-heart"></i></span>
+                    </button>
+                  </h6>
+                </div>
+                <div class="text-container-desc">
+                  <p class="body-cp-md">The Golden Mummies Hall</p>
+                  <p class="text-regular-weight">
+                    Rs.8999
+                    <span class="text-light-weight"
+                      ><span class="text-strike-through">Rs.9999</span
+                      ><span class="primary-text-color">10%</span></span
+                    >
+                  </p>
+                </div>
+                <div class="CTA-Container">
+                  <a class="btn flex-items btn-text-icon-primary"
+                    ><span class="btn-icon"
+                      ><i class="fas fa-shopping-cart"></i></span
+                    >Add to Cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="card-vertical default-container flex-items shadow-box">
+              <div class="image-container badge-container">
+                <img
+                  loading="lazy"
+                  class="img-responsive card-img"
+                  src="Components/images/image-4.jpg"
+                  alt="product-image"
+                />
+                <span class="badge bg-primary">New</span>
+              </div>
+              <div class="text-container">
+                <div class="text-container-title">
+                  <h6 class="text-regular-weight product-title">
+                    Christ the Redeemer<button class="like-btn link-no-style">
+                      <span><i class="fas fa-heart"></i></span>
+                    </button>
+                  </h6>
+                </div>
+                <div class="text-container-desc display-flex-column">
+                  <p class="body-cp-md">Rio de Janeiro</p>
+                  <p class="text-regular-weight flex-grow">
+                    Rs.7999
+                    <span class="text-light-weight"
+                      ><span class="text-strike-through">Rs.10999</span
+                      ><span class="primary-text-color">10%</span></span
+                    >
+                  </p>
+                </div>
+                <div class="CTA-Container">
+                  <a class="btn flex-items btn-text-icon-primary"
+                    ><span class="btn-icon"
+                      ><i class="fas fa-shopping-cart"></i></span
+                    >Add to Cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="card-vertical flex-items shadow-box">
+              <button type="button" class="btn-close"></button>
+              <div class="image-container badge-container">
+                <img
+                  loading="lazy"
+                  class="img-responsive card-img"
+                  src="Components/images/image-1.jpg"
+                  alt="product-image"
+                />
+                <span class="badge bg-primary">New</span>
+              </div>
+              <div class="text-container">
+                <div class="text-container-title">
+                  <h6 class="text-regular-weight product-title">
+                    Times Square<button class="like-btn link-no-style">
+                      <span><i class="fas fa-heart"></i></span>
+                    </button>
+                  </h6>
+                </div>
+                <div class="text-container-desc">
+                  <p class="body-cp-md">New York</p>
+                  <p class="text-regular-weight">
+                    Rs.10899
+                    <span class="text-light-weight"
+                      ><span class="text-strike-through">Rs.15999</span
+                      ><span class="primary-text-color">10%</span></span
+                    >
+                  </p>
+                </div>
+                <div class="CTA-Container">
+                  <a class="btn flex-items btn-text-icon-primary"
+                    ><span class="btn-icon"
+                      ><i class="fas fa-shopping-cart"></i></span
+                    >Add to Cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="code-snippet-display">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/620bfb7d80e1cd0015bd944c"
+              style="width: 100%; height: 411px"
+              frameborder="0"
+            ></iframe>
+          </div>
+          <div class="code-snippet-display">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/620bfc7680e1cd0015bd944f"
+              style="width: 100%; height: 411px"
+              frameborder="0"
+            ></iframe>
+          </div>
+          <div class="code-snippet-display">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/620bfce880e1cd0015bd9450"
+              style="width: 100%; height: 567px"
+              frameborder="0"
+            ></iframe>
+          </div>
+
+          <h2 class="h4">Example of Card with Text Overlay</h2>
+
+          <div class="component-display-container">
+            <div class="card-vertical flex-items shadow-box">
+              <div class="overlay-container">
+                <div class="image-container badge-container">
+                  <img
+                    loading="lazy"
+                    class="img-responsive card-img"
+                    src="Components/images/image-2.jpg"
+                    alt="product-image"
+                  />
+                  <span class="badge bg-primary">New</span>
+                </div>
+                <div class="text-container">
+                  <div class="text-container-title">
+                    <h6 class="text-regular-weight product-title">
+                      Santorini<button class="like-btn link-no-style">
+                        <span><i class="fas fa-heart"></i></span>
+                      </button>
+                    </h6>
+                  </div>
+                  <div class="text-container-desc">
+                    <p class="body-cp-md">Greece</p>
+                    <p class="text-regular-weight">
+                      Rs.8999
+                      <span class="text-light-weight"
+                        ><span class="text-strike-through">Rs.9999</span
+                        ><span class="primary-text-color">10%</span></span
+                      >
+                    </p>
+                  </div>
+                  <div class="CTA-Container">
+                    <a class="btn flex-items btn-text-icon-primary"
+                      ><span class="btn-icon"
+                        ><i class="fas fa-shopping-cart"></i></span
+                      >Add to Cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="overlay-text">
+                <div class="text-container body-cp-lg">Out Of Stock</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="code-snippet-display">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/620bfde880e1cd0015bd9451"
+              style="width: 100%; height: 476px"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+        <br />
+        <hr />
       </section>
     </div>
     <script src="./Components/components.js"></script>

@@ -9,7 +9,7 @@ html {
 }
 * {
   margin: 0;
-  font-family: "Encode Sans Semi Condensed", sans-serif;
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
   box-sizing: border-box;
   word-wrap: break-word;
 }
@@ -30,10 +30,10 @@ html {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
-    "header header header header header"
-    "sidebar main main main main"
-    "sidebar main main main main"
-    "sidebar main main main main";
+    'header header header header header'
+    'sidebar main main main main'
+    'sidebar main main main main'
+    'sidebar main main main main';
   margin-bottom: 1.5rem;
 }
 
@@ -54,9 +54,9 @@ h2 {
   .grid-container-pagelayout {
     grid-template-columns: 1fr;
     grid-template-areas:
-      "header"
-      "sidebar"
-      "main";
+      'header'
+      'sidebar'
+      'main';
   }
   body {
     width: 100vw;

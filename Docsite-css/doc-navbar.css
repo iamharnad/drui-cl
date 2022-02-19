@@ -3,7 +3,7 @@
   min-height: 10vh;
   width: 100%;
   z-index: var(--z-index-3);
-  position: sticky;
+  /* position: sticky; */
   top: 0;
 }
 
@@ -12,17 +12,15 @@
   width: fit-content;
 }
 
-.logo-tittle {
+.logo-title {
   font-size: 2rem;
-  font-family: "Encode Sans Semi Condensed", serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 500;
 }
-
 .logo-and-symbol-style {
   font-size: 1rem;
   margin-right: 3px;
 }
-
 .logo-tagline {
   font-size: 0.625rem;
   font-weight: 500;
@@ -35,7 +33,7 @@
 }
 #my-nav-bar a:hover,
 #my-nav-bar a:hover i {
-  color: var(--light-primary-color);
+  color: var(--primary-color);
 }
 
 @media screen and (max-width: 1024px) {

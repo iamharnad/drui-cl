@@ -8,7 +8,7 @@
 @import url(../Components/avatar.css);
 @import url(../Components/badge.css);
 @import url(../Components/cards.css);
-@import url(../Components/input.css);
+@import url(../Components/modal.css);
 
 html {
   scroll-behavior: smooth;

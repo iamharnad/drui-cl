@@ -38,7 +38,7 @@
   background-color: #ffe7c5;
 }
 .btn-close {
-  background: transparent url("/Components/images/closeIcon.svg") center/1.1em
+  background: transparent url('/Components/images/closeIcon.svg') center/1.1em
     auto no-repeat;
   border: 1px solid transparent;
   width: 1.5rem;

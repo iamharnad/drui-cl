@@ -3,7 +3,7 @@
   min-height: 10vh;
   width: 100%;
   z-index: var(--z-index-3);
-  /* position: sticky; */
+  position: sticky;
   top: 0;
 }
 
@@ -33,7 +33,7 @@
 }
 #my-nav-bar a:hover,
 #my-nav-bar a:hover i {
-  color: var(--primary-color);
+  color: var(--dark-primary-color);
 }
 
 @media screen and (max-width: 1024px) {

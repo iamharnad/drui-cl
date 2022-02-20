@@ -15,13 +15,22 @@
   transition: 0.2s ease;
 }
 .footer-social-icons a:hover {
-  color: var(--primary-color);
+  color: var(--dark-primary-color);
 }
 
 .footer-header {
   font-size: 1rem;
   letter-spacing: 0.5px;
 }
+
+.footer-header a {
+  text-decoration: none;
+  color: white;
+}
+.footer-header a:hover {
+  color: var(--dark-primary-color);
+}
+
 .footer-copy {
   color: rgb(167, 167, 167);
 }

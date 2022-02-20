@@ -14,31 +14,31 @@
 }
 
 .alert-primary {
-  background-color: #7fd2e6;
-  color: #29438b;
+  background-color: var(--alert-primary-background);
+  color: var(--primary-color);
 }
 .alert-box .link-text,
 .alert-box .btn {
   font-weight: 500;
 }
 .alert-secondary {
-  background-color: #eaeaec;
+  background-color: var(--secondary-color);
   color: #696b79;
 }
 .alert-success {
   background-color: #84f1c9;
-  color: #1b7052;
+  color: var(--green-color);
 }
 .alert-danger {
-  color: #dc3545;
-  background-color: #fcc5c5;
+  color: var(--danger-red-color);
+  background-color: var(--danger-red-secondary);
 }
 .alert-warning {
-  color: #ff9204;
-  background-color: #ffe7c5;
+  color: var(--alert-warning-primary);
+  background-color: var(--alert-warning-seconday);
 }
 .btn-close {
-  background: transparent url("/Components/images/closeIcon.svg") center/1.1em
+  background: transparent url('/Components/images/closeIcon.svg') center/1.1em
     auto no-repeat;
   border: 1px solid transparent;
   width: 1.5rem;

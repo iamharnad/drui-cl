@@ -9,6 +9,7 @@
 @import url(../Components/badge.css);
 @import url(../Components/cards.css);
 @import url(../Components/modal.css);
+@import url(../Components/scroll-btn.css);
 
 html {
   scroll-behavior: smooth;
@@ -25,16 +26,20 @@ body {
 
 :root {
   --primary-color: #381696;
-  --light-primary-color: #e90c68;
+  --light-primary-color: #f13a87;
   --dark-primary-color: #e90c68;
-
   --complimentary-text-color: white;
-
   --secondary-text-color: #696b79;
   --dark-secondary-text-color: #3f4049;
   --secondary-color: #eaeaec;
   --dark-secondary-color: #d8d8da;
-
+  --black-color: rgb(0, 0, 0);
+  --green-color: #006400;
+  --danger-red-color: #dc3545;
+  --danger-red-secondary: #fcc5c5;
+  --alert-primary-background: #7fd2e6;
+  --alert-warning-primary: #ff9204;
+  --alert-warning-seconday: #ffe7c5;
   --inactive-color: rgb(191, 192, 198);
   --z-index-1: 1;
   --z-index-2: 2;

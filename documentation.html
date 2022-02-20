@@ -772,7 +772,7 @@
         <hr />
         <!--List-->
 
-        <div id="Lists">
+        <div id="List">
           <div class="component-intro">
             <h1>Lists</h1>
             <p class="body-cp-lg text-light-weight">
@@ -1048,7 +1048,10 @@
     <!--Footer-->
     <footer class="footer text-center">
       <div class="footer-header">
-        Home | Installation | Documentation | Github
+        <a href="./index.html">Home</a> |
+        <a href="#Installation">Installation</a> |
+        <a href="./documentation.html">Documentation</a> |
+        <a href="https://github.com/iamharnad">Github</a>
       </div>
       <ul class="inline-list list-style-none footer-social-icons">
         <li class="list-inline-item">
@@ -1062,10 +1065,19 @@
           ></a>
         </li>
       </ul>
+      <button
+        onclick="topFunction()"
+        class="btn btn-solid-primary"
+        id="scrollBtn"
+        title="Go to top"
+      >
+        &uarr;
+      </button>
       <p>© 2021 DRUI Component Library</p>
     </footer>
     <script src="./Components/components.js"></script>
     <script src="./Docsite-js/docsite-nav.js"></script>
     <script src="./Docsite-js/docsite-sidebar.js"></script>
+    <script src="./Docsite-js/docsite-scroll.js"></script>
   </body>
 </html>

@@ -16,11 +16,7 @@
 
 .logo-title {
   font-size: 2rem;
-<<<<<<< Updated upstream
-  font-family: 'Roboto Slab', serif;
-=======
   font-family: 'Encode Sans Semi Condensed', serif;
->>>>>>> Stashed changes
   font-weight: 500;
 }
 .logo-and-symbol-style {
@@ -39,7 +35,7 @@
 }
 #my-nav-bar a:hover,
 #my-nav-bar a:hover i {
-  color: var(--primary-color);
+  color: var(--light-primary-color);
 }
 
 @media screen and (max-width: 1024px) {

@@ -17,13 +17,32 @@
   transition: 0.2s ease;
 }
 .footer-social-icons a:hover {
-  color: var(--primary-color);
+  color: var(--light-primary-color);
 }
 
 .footer-header {
   font-size: 1rem;
   letter-spacing: 0.5px;
+  color: var(--complimentary-text-color);
 }
+
+.footer-header a:link {
+  color: var(--complimentary-text-color);
+  text-decoration: none;
+}
+
+.footer-header a:visited {
+  color: var(--complimentary-text-color);
+}
+
+.footer-header a:hover {
+  color: var(--light-primary-color);
+}
+
+.footer-header a:active {
+  color: var(--complimentary-text-color);
+}
+
 .footer-copy {
   color: rgb(167, 167, 167);
 }

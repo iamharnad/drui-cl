@@ -1,4 +1,4 @@
-@import url("../Components/drui.css");
+@import url('../Components/drui.css');
 
 :root {
   --light-secondary-text-color: #ffffff;
@@ -66,6 +66,6 @@
   color: var(--dark-secondary-color);
 }
 
-label.slider-track[for="range"]:after {
+label.slider-track[for='range']:after {
   background-color: var(--dark-secondary-color);
 }

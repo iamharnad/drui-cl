@@ -1,51 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="./Components/images/fav-icon.png"
-    />
-    <title>DRUI Component Library | Home</title>
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="./Components/images/fav-icon.png"
-    />
-    <title>DRUI Component Library | Home</title>
-  </head>
-
-  <body>
-    <!--Navigation Bar-->
-    <nav class="nav-bar shadow-box" id="my-nav-bar">
-      <div class="nav-section">
-        <div class="burger nav-section-items" id="my-burger-menu">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
-        <div class="nav-logo nav-section-items" id="my-logo">
-          <a href="#" class="link-no-style">
-            <div class="primary-text-color logo-title" style="color: aliceblue">
-              DRUI
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@300&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="./Components/images/fav-icon.png" />
+  <title>DRUI Component Library | Home</title>
+ 
+</head>
+<body>
+  <!--Navigation Bar-->
+  <nav class="nav-bar shadow-box" id="my-nav-bar">
+    <div class="nav-section">
+      <div class="burger nav-section-items" id="my-burger-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <div class="nav-logo nav-section-items" id="my-logo">
+        <a href="#" class="link-no-style">
+          <div class="primary-text-color logo-title" style="color: aliceblue">
+            DRUI
+          </div>
+        </a>
+      </div>
+      <ul class="nav-bar-links list-style-none nav-section-items">
+        <li class="list-inline-item avatar-in-nav-links">
+          <div class="tertiary-text-color logo-tagline">dont-react ui</div>
+        </li>
+        <li class="list-inline-item">
+          Home
           </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="./documentation.html" class="link-no-style">Documentation</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="nav-section">
+      <ul class="nav-icons list-style-none nav-section-item-width50pc">
+        <li class="list-inline-item">
+          <a href="https://github.com/iamharnad/drui-cl" class="nav-icon-link link-no-style">
+            <span class="nav-icon">
+              <i class="fab fa-github" aria-hidden="true"></i>
+            </span>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://twitter.com/iamharnad" class="nav-icon-link link-no-style">
+            <span class="nav-icon">
+              <i class="fab fa-twitter"></i>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--Main Section-->
+  <div class="main" style="min-height: calc(90vh - 12rem)">
+    <div class="spacer-2rem"></div>
+    <div class="grid-50-50-layout">
+      <div class="text-container">
+        <h1>Design Beautiful Websites Quickly</h1>
+        <p class="body-cp-lg">
+          <strong>dont-react UI</strong> is a development framework that helps create
+          beautiful, responsive layouts using human-friendly HTML.
+        </p>
+        <div class="CTA-Container">
+          <a href="#installation" class="btn btn-outline-primary">Installation</a>
+          <a href="./documentation.html" class="btn btn-solid-primary">Documentation</a>
         </div>
         <ul class="nav-bar-links list-style-none nav-section-items">
           <li class="list-inline-item avatar-in-nav-links">
@@ -54,7 +86,7 @@
           <li class="list-inline-item">
             <a href="./index.html" class="link-no-style"
             Home
-            </a>
+            >
           </li>
           <li class="list-inline-item">
             <a href="./documentation.html" class="link-no-style"
@@ -64,128 +96,68 @@
         </ul>
       </div>
 
-      <div class="nav-section">
-        <ul class="nav-icons list-style-none nav-section-item-width50pc">
-          <li class="list-inline-item">
-            <a
-              href="https://github.com/iamharnad"
-              class="nav-icon-link link-no-style"
-            >
-              <span class="nav-icon">
-                <i class="fab fa-github" aria-hidden="true"></i>
-              </span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a
-              href="https://twitter.com/iamharnad"
-              class="nav-icon-link link-no-style"
-            >
-              <span class="nav-icon">
-                <i class="fab fa-twitter"></i>
-              </span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!--Main Section-->
-    <div class="main" style="min-height: calc(90vh - 12rem)">
-      <div class="spacer-2rem"></div>
-      <div class="grid-50-50-layout">
-        <div class="text-container">
-          <h1>Design Beautiful Websites Quickly</h1>
-          <p class="body-cp-lg">
-            <strong>DRUI</strong> is a development framework that helps create
-            beautiful, responsive layouts using human-friendly HTML.
-          </p>
-          <div class="CTA-Container">
-            <a href="#installation" class="btn btn-outline-primary"
-              >Installation</a
-            >
-            <a href="./documentation.html" class="btn btn-solid-primary"
-              >Documentation</a
-            >
-          </div>
-        </div>
-
-        <div style="margin-top: 1rem">
-          <img
-            class="img-responsive"
-            src="Components/images/undraw_designer_re_5v95.svg"
-          />
-        </div>
-      </div>
-
-      <div class="grid-50-50-layout" id="installation">
-        <div class="text-container">
-          <h2>Installation</h2>
-          <p class="body-cp-rg">
-            Copy and paste the code in the head tag of your html document. So
-            that you can style your components by just adding class names to
-            your html elements. <br /><br />
-
-            To know about the styled components, their variations, read the
-            documentaion
-            <br />
-            <br />
-            <iframe
-              src="https://www.thiscodeworks.com/embed/6203eb44c6efb50015062d6e"
-              style="width: 100%; height: 112px"
-              frameborder="0"
-            ></iframe>
-          </p>
-          <div class="CTA-Container">
-            <a href="./documentation.html" class="btn btn-solid-primary"
-              >Documentation</a
-            >
-          </div>
-        </div>
-        <div class="display-flex vertical-middle">
-          <div style="margin-top: 1rem">
-            <img
-              class="img-responsive-install"
-              src="Components/images/undraw_attached_file_re_0n9b.svg"
-            />
-          </div>
-        </div>
+      <div style="margin-top: 0.5rem">
+        <img class="img-responsive" src="Components/images/undraw_designer_re_5v95.svg" alt="main-image"/>
       </div>
     </div>
 
-    <div class="spacer-2rem"></div>
-    <div class="spacer-2rem"></div>
-    <!--Footer-->
-    <footer class="footer text-center">
-      <div class="footer-header">
-        <a href="./index.html">Home</a> |
-        <a href="#Installation">Installation</a> |
-        <a href="./documentation.html">Documentaion</a> |
-        <a href="https://github.com/iamharnad">Github</a>
+    <div class="grid-50-50-layout" id="installation">
+      <div class="text-container">
+        <h2>Installation</h2>
+        <p class="body-cp-rg">
+          Copy and paste the code in the head tag of your html document. So
+          that you can style your components by just adding class names to
+          your html elements. <br /><br />
+
+          To know about the styled components, their variations, head to the
+          documentaion
+          <br />
+          <br />
+          <iframe src="https://www.thiscodeworks.com/embed/6203eb44c6efb50015062d6e" style="width: 100%; height: 138px;"
+            frameborder="0"></iframe>
+        </p>
+        <div class="CTA-Container">
+          <a href="./documentation.html" class="btn btn-solid-primary">Documentation</a>
+        </div>
       </div>
-      <ul class="inline-list list-style-none footer-social-icons">
-        <li class="list-inline-item">
-          <a class="link-no-style" href="https://github.com/iamharnad"
-            ><i class="fab fa-github"></i
-          ></a>
-        </li>
-        <li class="list-inline-item">
-          <a class="link-no-style" href="https://twitter.com/iamharnad"
-            ><i class="fab fa-twitter"></i
-          ></a>
-        </li>
-        <li class="list-inline-item">
-          <a class="link-no-style" href="mailto:contactus@drui.com"
-            ><i class="fa fa-envelope" aria-hidden="true"></i
-          ></a>
-        </li>
-        <li class="list-inline-item">
-          <a class="link-no-style" href="https://stackoverflow.com/users/5983244/krishna-haranath"
-            ><i class="fab fa-stack-overflow"></i></i
-          ></a>
-        </li>
-      </ul>
-      <p>© 2022 DRUI Component Library</p>
-    </footer>
-    <script src="./Docsite-js/docsite-nav.js"></script>
-  </body>
+      <div class="display-flex vertical-middle">
+        <div style="margin-top: 1rem">
+          <img class="img-responsive-install" src="Components/images/undraw_attached_file_re_0n9b.svg" alt="secondary-logo"/>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="spacer-2rem"></div>
+  <div class="spacer-2rem"></div>
+  <!--Footer-->
+  <footer class="footer text-center">
+    <div class="footer-header">
+      <a href="./index.html">Home</a> |
+      <a href="#Installation">Installation</a> |
+      <a href="./documentation.html">Documentaion</a> |
+      <a href="https://github.com/iamharnad">Github</a>
+    </div>
+    <ul class="inline-list list-style-none footer-social-icons">
+      <li class="list-inline-item">
+        <a class="link-no-style" href="https://github.com/iamharnad"><i class="fab fa-github"></i></a>
+      </li>
+      <li class="list-inline-item">
+        <a class="link-no-style" href="https://twitter.com/iamharnad"><i class="fab fa-twitter"></i></a>
+      </li>
+      <li class="list-inline-item">
+        <a class="link-no-style" href="mailto:contactus@drui.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+      </li>
+      <li class="list-inline-item">
+        <a class="link-no-style" href="https://stackoverflow.com/users/5983244/krishna-haranath"><i
+            class="fab fa-stack-overflow"></i></i></a>
+      </li>
+    </ul>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">&uarr;</button>
+    <p>© 2022 DRUI Component Library</p>
+  </footer>
+  <script src="./Docsite-js/docsite-nav.js"></script>
+  <script src="./Docsite-js/docsite-scrollBtn.js"></script>
+</body>
+
 </html>

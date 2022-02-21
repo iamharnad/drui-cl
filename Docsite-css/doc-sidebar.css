@@ -1,3 +1,5 @@
+/* Sidebar Styles*/
+
 .sidebar {
   grid-area: sidebar;
   overflow-y: auto;

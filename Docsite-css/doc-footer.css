@@ -1,3 +1,5 @@
+/* Footbar Styles*/
+
 .footer {
   background-color: var(--bg-color-primary-3);
   min-height: 7rem;
@@ -21,14 +23,24 @@
 .footer-header {
   font-size: 1rem;
   letter-spacing: 0.5px;
+  color: var(--complimentary-text-color);
 }
 
-.footer-header a {
+.footer-header a:link {
+  color: var(--complimentary-text-color);
   text-decoration: none;
-  color: white;
 }
+
+.footer-header a:visited {
+  color: var(--complimentary-text-color);
+}
+
 .footer-header a:hover {
-  color: var(--dark-primary-color);
+  color: var(--light-primary-color);
+}
+
+.footer-header a:active {
+  color: var(--complimentary-text-color);
 }
 
 .footer-copy {

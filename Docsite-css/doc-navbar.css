@@ -1,3 +1,5 @@
+/* Navigation Styles */
+
 .nav-bar {
   grid-area: header;
   min-height: 10vh;
@@ -14,7 +16,7 @@
 
 .logo-title {
   font-size: 2rem;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Encode Sans Semi Condensed', serif;
   font-weight: 500;
 }
 .logo-and-symbol-style {

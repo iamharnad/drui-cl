@@ -1,3 +1,5 @@
+/* Component Display Style */
+
 .component-display-container {
   display: flex;
   flex-wrap: wrap;

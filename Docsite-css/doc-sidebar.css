@@ -1,3 +1,5 @@
+/* Sidebar Styles*/
+
 .sidebar {
   grid-area: sidebar;
   overflow-y: auto;
@@ -22,7 +24,7 @@
 }
 
 .nav-link-item:hover {
-  background-color: var(--docSite-sec-color);
+  background-color: var(--secondary-color);
 }
 
 .nav-link-item > a {

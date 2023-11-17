@@ -1,3 +1,5 @@
+/* Grid styles */
+
 .grid-30-70-layout {
   display: grid;
   grid-template-columns: 30% 70%;

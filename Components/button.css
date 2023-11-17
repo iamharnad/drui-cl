@@ -204,7 +204,7 @@ button.link-no-style {
 }
 .btn-toggle .btn-slider-round::before {
   position: absolute;
-  content: "";
+  content: '';
   top: 0;
   left: 9px;
   width: 26px;

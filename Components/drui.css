@@ -6,6 +6,10 @@
 @import url(../Components/grid.css);
 @import url(../Components/alert.css);
 @import url(../Components/avatar.css);
+@import url(../Components/badge.css);
+@import url(../Components/cards.css);
+@import url(../Components/modal.css);
+@import url(../Components/scroll-btn.css);
 
 html {
   scroll-behavior: smooth;
@@ -17,21 +21,18 @@ body {
 
 * {
   margin: 0;
-  font-family: "Encode Sans Semi Condensed", sans-serif;
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
 }
 
 :root {
   --primary-color: #381696;
   --light-primary-color: #e90c68;
   --dark-primary-color: #e90c68;
-
   --complimentary-text-color: white;
-
   --secondary-text-color: #696b79;
   --dark-secondary-text-color: #3f4049;
   --secondary-color: #eaeaec;
   --dark-secondary-color: #d8d8da;
-
   --inactive-color: rgb(191, 192, 198);
   --z-index-1: 1;
   --z-index-2: 2;
